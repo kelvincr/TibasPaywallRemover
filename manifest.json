@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Tibas PayWall Remover",
+    "description": "This extension removes from your sight some annoying styles and div from a website on Tibas who ask you every time for 600 colones.",
+    "version": "0.1",
+  
+    "browser_action": {
+      "default_icon": "icon.png"
+    },
+    "background":{  "scripts" :["popup.js"] },
+    "permissions": [ "webNavigation", "*://*/*" ]
+  }
